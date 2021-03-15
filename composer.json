@@ -1,0 +1,22 @@
+{
+  "name": "tomasz-kusy/simple-assert",
+  "description": "Simple lightweight, secure, fast assert helper",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "assert",
+    "performance"
+  ],
+  "authors": [
+    {
+      "name": "Tomasz Kusy"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"TKusy\\SimpleAssert\\": "src/"}
+  },
+  "require": {
+    "psr/log": "^1.1"
+  }
+}
